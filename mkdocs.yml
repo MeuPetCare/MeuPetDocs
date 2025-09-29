@@ -1,3 +1,31 @@
-site_name: My Docs
+site_name: MeuPet
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+- Início: index.md
+- Requisitos:
+    - "1. Visão e Escopo": requisitos/1.visaoEscopo.md
+    - "2. Identificação": requisitos/2.identificacao.md
+    - "3. Elicitação": requisitos/3.elicitacao.md
+    - "4. Casos de Uso": requisitos/4.casosDeUso.md
+    - "5. Requisitos": requisitos/5.requisitos.md
+    - "6. Histórias de Usuário": requisitos/6.historiasDeUsuario.md
+    - "7. Priorização": requisitos/7.priorizacao.md
+- Arquitetura:
+    - "Tecnologias do projeto": arquitetura/tecnologias.md
