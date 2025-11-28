@@ -6,11 +6,11 @@
 - Autenticação **JWT (Bearer)** e **RBAC** (Administrador, Veterinário)
 
 ## Front-end
-- **Angular** 17+ (Angular CLI)
-- **TypeScript**
-- **Angular Router**
-- Formulários: **Reactive Forms**
-- UI: **Tailwind CSS**
+- **React** 18 com **TypeScript**
+- **Vite** para build e desenvolvimento
+- **Tailwind CSS** para estilização
+- **Shadcn/ui** componentes reutilizáveis
+- **React Router** para navegação
 
 ## Back-end (API)
 - **Node.js** 20 LTS
@@ -28,8 +28,13 @@
 ## DevOps / Ambientes
 - **Docker** + **docker-compose** (dev)
 - Serviços no compose: **MySQL**, **MinIO**, **MailHog**
-- CI/CD (quando der): GitHub Actions (lint, testes, build)
+- CI/CD: GitHub Actions (lint, testes, build)
 - Variáveis via **12-factor** (.env por ambiente)
+
+## Deploy
+- **Railway** - Deploy da API e banco de dados
+- **Vercel** - Deploy do frontend React
+- **GitHub Pages** - Documentação (disponível para deploy)
 
 ## Segurança (baseline)
 - CORS restrito
